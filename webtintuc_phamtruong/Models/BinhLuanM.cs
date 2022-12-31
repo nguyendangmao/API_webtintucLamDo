@@ -7,8 +7,7 @@ namespace webtintuc_phamtruong.Models
    
     public class BinhLuanM
     {
-        [Key]
-        public int IDBinhLuan { get; set; }
+       
         [Required]
         [ForeignKey("IDPhanQuyen")]
         public int IDBaiViet { get; set; }

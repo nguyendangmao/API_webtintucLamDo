@@ -7,8 +7,7 @@ namespace webtintuc_phamtruong.Data
    
     public class BaiVietM
     {
-        [Key]
-        public int IDBaiViet { get; set; }
+     
         [Required]
         [ForeignKey("IDNhomTin")]
         public int IDNhomTin { get; set; }

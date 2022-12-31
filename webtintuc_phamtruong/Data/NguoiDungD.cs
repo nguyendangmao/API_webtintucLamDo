@@ -4,6 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace webtintuc_phamtruong.Models
 {
+    public enum TrangThai
+    {
+        Online = 0, Ofline = 1
+
+    }
     [Table("NguoiDung")]
     public class NguoiDungD
     {
@@ -22,7 +27,7 @@ namespace webtintuc_phamtruong.Models
         [MaxLength(10)]
         public string SDT { get; set; }
         public string DiaChi { get; set; }
-        public int TrangThai { get; set; }
+        public TrangThai TrangThai { get; set; }
         public DateTime NgayTao { get; set; }
 
         public string NguoiTao { get; set; }

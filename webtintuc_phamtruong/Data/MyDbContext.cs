@@ -8,7 +8,7 @@ namespace webtintuc_phamtruong.Data
         public MyDbContext(DbContextOptions options) : base(options) { }
 
         #region db set
-        public DbSet<HangHoa> HangHoas { get; set; }
+        //public DbSet<HangHoa> HangHoas { get; set; }
         public DbSet<BaiVietD> BaiVietDs { get; set; }
         public DbSet<BinhLuanD> BinhLuanDs { get; set; }
         public DbSet<NguoiDungD> NguoiDungDs { get; set; }

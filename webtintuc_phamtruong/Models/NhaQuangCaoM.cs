@@ -5,8 +5,7 @@ namespace webtintuc_phamtruong.Models
 {
     public class NhaQuangCaoM
     {
-        [Key]
-        public int IDNQC { get; set; }
+       
         [Required]
         public string TenNQC { get; set; }
         public DateTime NgayTao { get; set; }

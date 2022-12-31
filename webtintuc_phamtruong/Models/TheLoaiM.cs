@@ -7,8 +7,7 @@ namespace webtintuc_phamtruong.Models
  
     public class TheLoaiM
     {
-        [Key]
-        public int IDTheLoai { get; set; }
+     
         [Required]
         public string TenTheLoai { get; set; }
         public DateTime NgayTao { get; set; }

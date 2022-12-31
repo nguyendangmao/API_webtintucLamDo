@@ -7,8 +7,7 @@ namespace webtintuc_phamtruong.Models
    
     public class QuangCaoM
     {
-        [Key]
-        public int IDQuangCao { get; set; }
+       
         [Required]
         [ForeignKey("IDNQC")]
         public int IDNQC { get; set; }

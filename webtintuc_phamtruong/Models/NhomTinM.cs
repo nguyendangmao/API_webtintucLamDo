@@ -7,8 +7,7 @@ namespace webtintuc_phamtruong.Models
    
     public class NhomTinM
     {
-        [Key]
-        public int IDNhomTin { get; set; }
+      
         [Required]
         public string TenNhomTin { get; set; }
         public int ThuTuHienThi { get; set; }
