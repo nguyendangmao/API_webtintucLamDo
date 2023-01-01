@@ -8,7 +8,7 @@ namespace webtintuc_phamtruong.Data
     public class BaiVietD
     {
         [Key]
-        public int IDBaiViet { get; set; }
+        public int IDBaiViêt { get; set; }
         [Required]
         [ForeignKey("IDNhomTin")]
         public int IDNhomTin { get; set; }
@@ -23,11 +23,9 @@ namespace webtintuc_phamtruong.Data
         public string HinhAnh { get; set; }
         public double SoSaoTB { get; set; }
         public int LuotXem { get; set; }
-        public string GioiTinh { get; set; }
-        [MaxLength(10)]
-        public string SDT { get; set; }
-        public string DiaChi { get; set; }
-        public int TrangThai { get; set; }
         public DateTime NgayTao { get; set; }
+        public string NguoiTao { get; set; }
+        public DateTime NgaySua { get; set; }
+        public string NguoiSua { get; set; }
     }
 }

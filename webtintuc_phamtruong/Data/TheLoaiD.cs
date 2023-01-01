@@ -9,7 +9,6 @@ namespace webtintuc_phamtruong.Data
     {
         [Key]
         public int IDTheLoai { get; set; }
-        [Required]
         public string TenTheLoai { get; set; }
         public DateTime NgayTao { get; set; }
 

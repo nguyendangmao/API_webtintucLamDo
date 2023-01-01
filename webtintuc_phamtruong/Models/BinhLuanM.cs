@@ -9,10 +9,7 @@ namespace webtintuc_phamtruong.Models
     {
        
         [Required]
-        [ForeignKey("IDPhanQuyen")]
         public int IDBaiViet { get; set; }
-        [Required]
-        [ForeignKey("ID")]
         public int ID { get; set; }
         public string NoiDung { get; set; }
         public DateTime NgayTao { get; set; }
