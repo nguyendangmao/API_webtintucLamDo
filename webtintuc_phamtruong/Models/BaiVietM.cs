@@ -6,8 +6,9 @@ namespace webtintuc_phamtruong.Data
 {
    
     public class BaiVietM
-    {  
-    
+    {
+        [Required] 
+        
         public int IDNhomTin { get; set; }
         public int IDTheLoai { get; set; }
         public int IDQuangCao { get; set; }

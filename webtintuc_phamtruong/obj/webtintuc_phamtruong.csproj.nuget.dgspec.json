@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TRUONG\\Desktop\\New folder\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj": {}
+    "C:\\Users\\TRUONG\\Desktop\\New folder (2)\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TRUONG\\Desktop\\New folder\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj": {
+    "C:\\Users\\TRUONG\\Desktop\\New folder (2)\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TRUONG\\Desktop\\New folder\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj",
+        "projectUniqueName": "C:\\Users\\TRUONG\\Desktop\\New folder (2)\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj",
         "projectName": "webtintuc_phamtruong",
-        "projectPath": "C:\\Users\\TRUONG\\Desktop\\New folder\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj",
+        "projectPath": "C:\\Users\\TRUONG\\Desktop\\New folder (2)\\API_webtintucLamDo\\webtintuc_phamtruong\\webtintuc_phamtruong.csproj",
         "packagesPath": "C:\\Users\\TRUONG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TRUONG\\Desktop\\New folder\\API_webtintucLamDo\\webtintuc_phamtruong\\obj\\",
+        "outputPath": "C:\\Users\\TRUONG\\Desktop\\New folder (2)\\API_webtintucLamDo\\webtintuc_phamtruong\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

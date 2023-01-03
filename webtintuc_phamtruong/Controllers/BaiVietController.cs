@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Diagnostics;
 using System.Linq;
 using webtintuc_phamtruong.Data;
 
@@ -160,7 +161,7 @@ namespace webtintuc_phamtruong.Controllers
                 baiviet.LuotXem = BaiVietEdit.LuotXem;
                 baiviet.NgaySua = DateTime.Now;
                 baiviet.NguoiSua = "ADMIN";
-                var IdNT = _context.BaiVietDs.SingleOrDefault(nt => nt.IDNhomTin == baiviet.IDNhomTin);
+                var IdNT = _context.NhomTinDs.SingleOrDefault(nt => nt.IDNhomTin == baiviet.IDNhomTin);
                 var IdTL = _context.TheLoaiDs.SingleOrDefault(nt => nt.IDTheLoai == baiviet.IDTheLoai);
                 var IdQC = _context.QuangCaoDs.SingleOrDefault(nt => nt.IDQuangCao == baiviet.IDQuangCao);
                 if (IdNT != null && IdTL != null && IdQC != null)
